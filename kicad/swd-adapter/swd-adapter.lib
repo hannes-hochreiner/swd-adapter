@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# swd_connector_1_27
+#
+DEF swd_connector_1_27 SW 0 40 Y Y 1 F N
+F0 "SW" 100 -350 50 H V C CNN
+F1 "swd_connector_1_27" 0 400 50 H V C CNN
+F2 "swd-adapter:swd_connector_1_27" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "S9015E-03-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F5 "Sullins Connector Solutions" 0 0 50 H I C CNN "Manufacturer"
+F6 "GRPB032VWVN-RC" 0 0 50 H I C CNN "Manufacturer Part Number"
+F7 "CONN HEADER VERT 6POS 1.27MM" 0 0 50 H I C CNN "Description"
+DRAW
+S -150 300 150 -300 0 1 0 N
+X 1 1 -350 200 200 R 50 50 0 0 P
+X 2 2 -350 100 200 R 50 50 0 0 P
+X 4 4 -350 -100 200 R 50 50 0 0 P
+X 5 5 -350 -200 200 R 50 50 0 0 P
+X 6 6 -350 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# swd_connector_2_45
+#
+DEF swd_connector_2_45 SW 0 40 Y Y 1 F N
+F0 "SW" 50 -350 50 H V C CNN
+F1 "swd_connector_2_45" 0 400 50 H V C CNN
+F2 "swd-adapter:swd_connector_2_54" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "952-1922-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F5 "Harwin Inc." 0 0 50 H I C CNN "Manufacturer"
+F6 "M20-8760342" 0 0 50 H I C CNN "Manufacturer Part Number"
+F7 "CONN HEADER SMD 6POS 2.54MM" 0 0 50 H I C CNN "Description"
+DRAW
+S 150 -300 -150 300 0 1 0 N
+X 1 1 350 200 200 L 50 50 0 0 P
+X 2 2 350 100 200 L 50 50 0 0 P
+X 4 4 350 -100 200 L 50 50 0 0 P
+X 5 5 350 -200 200 L 50 50 0 0 P
+X 6 6 350 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
